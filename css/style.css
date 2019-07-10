@@ -45,6 +45,14 @@ html,body{
 	width: 65vw;
 	margin:auto;
 }
+@media screen and (max-width: 700px){
+	body{
+		font-size: 5vw;
+	}
+	nav{
+		visibility: hidden;
+	}
+}
 /* styling the navigation */
 .logo img{
 	width:8vw;
