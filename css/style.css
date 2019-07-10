@@ -124,6 +124,9 @@ nav ul li a:hover{
 	nav ul{
 		visibility: hidden;
 	}
+	.logo img{
+		width:12vw;
+	}
 	.header-body {
 		margin-top:70px;
 	}
