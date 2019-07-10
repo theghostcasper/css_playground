@@ -28,7 +28,7 @@ html,body{
 
 /* Header styles */
 .main-header{
-	min-height: 150px;
+	min-height: 100vh;
 	background:url('../img/home-7.jpg'), #444;
 	background-position: center;
 	background-size: cover;
