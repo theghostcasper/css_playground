@@ -55,7 +55,11 @@ html,body{
 	.container-small{
 		width:100%;
 	}
-	nav{
+	.about{
+		font-size:20px;
+	}
+	.about div h1{
+		font-size:25px;
 	}
 }
 /* styling the navigation */
