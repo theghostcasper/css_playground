@@ -124,6 +124,9 @@ nav ul li a:hover{
 	nav ul{
 		visibility: hidden;
 	}
+	.container{
+		padding:35px;
+	}
 	.logo img{
 		width:12vw;
 	}
@@ -150,5 +153,12 @@ nav ul li a:hover{
 	}
 	.about div h1{
 		font-size:25px;
+	}
+	.download{
+		padding:13px 25px;
+		font-size: 15px;
+	}
+	.scroll-down img{
+		width:50px;
 	}
 }
