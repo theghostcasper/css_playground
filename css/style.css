@@ -45,23 +45,7 @@ html,body{
 	width: 65vw;
 	margin:auto;
 }
-@media screen and (max-width: 700px){
-	body{
-		max-width:100%;
-	}
-	.container{
-		width: 100%;
-	}
-	.container-small{
-		width:100%;
-	}
-	.about{
-		font-size:20px;
-	}
-	.about div h1{
-		font-size:25px;
-	}
-}
+
 /* styling the navigation */
 .logo img{
 	width:8vw;
@@ -131,4 +115,37 @@ nav ul li a:hover{
 }
 .about p{
 	color: rgba(0,0,0,0.6);
+}
+
+@media screen and (max-width: 700px){
+	body{
+		max-width:100%;
+	}
+	nav ul{
+		visibility: hidden;
+	}
+	.header-body {
+		margin-top:70px;
+	}
+	.header-body h1{
+		font-size:25px;
+		line-height:2;
+	}
+
+	.header-body h2{
+		font-size:15px;
+		line-height:2;
+	}
+	.container{
+		width: 100%;
+	}
+	.container-small{
+		width:100%;
+	}
+	.about{
+		font-size:20px;
+	}
+	.about div h1{
+		font-size:25px;
+	}
 }
